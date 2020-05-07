@@ -1,3 +1,5 @@
-requirements 'requests' and 'bs4'
-pip install request
-pip install bs4
+requirements 'python3' 'requests' 'bs4' 'lxml'
+you need to run this script in python3
+pip3 install request
+pip3 install bs4
+pip3 install lxml
