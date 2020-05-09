@@ -15,8 +15,7 @@ def numberaccpect(message):
 
 _rankNum = numberaccpect('message')
 if _rankNum > 50:
-    val = _rankNum
-    int_val = val//50
+    int_val = _rankNum//50
     int_num = int_val*50
     finalurl = ('https://myanimelist.net/topanime.php?limit='+str(int_num))
 else:
