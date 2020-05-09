@@ -1,14 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
 
-
 def numberaccpect(message):
     message = message
     while True:
         try:
             userInput = int(input('Witch Rank Number You Want to See:- '))
         except ValueError:
-            print('Please Import only NUMBER')
+            print('Please Import only RANK NUMBER')
             continue
         else:
             return userInput
