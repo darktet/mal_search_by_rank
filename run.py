@@ -15,7 +15,6 @@ def numberaccpect(message):
             break
 _rankNum = numberaccpect('message')
 str_rankNum = str(_rankNum)
-print(type(str_rankNum))
 if _rankNum > 50:
     val = _rankNum
     int_val = val//50
