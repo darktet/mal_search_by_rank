@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+
 def numberaccpect(message):
     message = message
     while True:
@@ -13,6 +14,8 @@ def numberaccpect(message):
             return userInput
             break
 
+
+"""test"""
 _rankNum = numberaccpect('message')
 if _rankNum > 50:
     int_val = _rankNum//50
