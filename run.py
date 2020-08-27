@@ -36,18 +36,3 @@ for div_rank in soup.findAll('tr', class_='ranking-list'):
         print (global_score)
         print(anime_link)
 
-
-
-
-
-
-
-GET https://myanimelist.net/v1/oauth2/authorize?
-response_type=code
-&client_id=YOUR_CLIENT_ID
-&state=YOUR_STATE
-&redirect_uri=YOUR_REDIRECT_URI
-&code_challenge=YOUR_PKCE_CODE_CHALLENGE
-&code_challenge_method=plain 
-HTTP/1.1
-Host: YOUR_HOST_URL
