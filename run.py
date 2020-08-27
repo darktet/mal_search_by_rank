@@ -2,21 +2,19 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def numberaccpect(message):
+def perfectNumber(message):
     message = message
     while True:
         try:
-            userInput = int(input('Witch Rank Number You Want to See:- '))
+            user_input = int(input('Witch Rank Number You Want to See:- '))
         except ValueError:
             print('Please Import only NUMBER')
             continue
         else:
-            return userInput
-            break
+            return user_input
 
 
-"""test"""
-_rankNum = numberaccpect('message')
+_rankNum = perfectNumber('message')
 if _rankNum > 50:
     int_val = _rankNum//50
     int_num = int_val*50
@@ -37,3 +35,19 @@ for div_rank in soup.findAll('tr', class_='ranking-list'):
         print(rank+') '+name)
         print (global_score)
         print(anime_link)
+
+
+
+
+
+
+
+GET https://myanimelist.net/v1/oauth2/authorize?
+response_type=code
+&client_id=YOUR_CLIENT_ID
+&state=YOUR_STATE
+&redirect_uri=YOUR_REDIRECT_URI
+&code_challenge=YOUR_PKCE_CODE_CHALLENGE
+&code_challenge_method=plain 
+HTTP/1.1
+Host: YOUR_HOST_URL
