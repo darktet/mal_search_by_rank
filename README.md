@@ -4,4 +4,4 @@ pip3 install request
 pip3 install bs4
 pip3 install lxml
 
-this file parse thrue mal website tomanime without api
+this file parse mal website topanime without api
