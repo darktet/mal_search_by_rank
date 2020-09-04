@@ -1,5 +1,5 @@
 requirements 'python3' 'requests' 'bs4' 'lxml'
-```xml
+```groovy
 pip3 install request
 pip3 install bs4
 pip3 install lxml
