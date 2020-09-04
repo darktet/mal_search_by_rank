@@ -1,7 +1,7 @@
 requirements 'python3' 'requests' 'bs4' 'lxml'
-you need to run this script in python3
+```xml
 pip3 install request
 pip3 install bs4
 pip3 install lxml
-
-this file parse mal website topanime without api
+```
+this file parse mal website's topanime's webpage without api
